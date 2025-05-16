@@ -1,0 +1,222 @@
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.font-weight-normal {
+  font-weight: normal !important;
+}
+
+.font-weight-bold {
+  font-weight: bold !important;
+}
+
+/* Adicione outros pesos de fonte conforme necessário */
+
+.font-italic {
+  font-style: italic !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-lowercase {
+  text-transform: lowercase !important;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+.text-decoration-underline {
+  text-decoration: underline !important;
+}
+
+.text-decoration-line-through {
+  text-decoration: line-through !important;
+}
+
+
+.fs-1 {
+  font-size: 2.5rem !important;
+}
+
+.fs-2 {
+  font-size: 2rem !important;
+}
+
+.fs-3 {
+  font-size: 1.75rem !important;
+}
+
+.fs-4 {
+  font-size: 1.5rem !important;
+}
+
+.fs-5 {
+  font-size: 1.25rem !important;
+}
+
+.fs-6 {
+  font-size: 1rem !important;
+}
+
+
+/* Breakpoints */
+@media (min-width: 576px) {
+  .text-sm-left {
+    text-align: left !important;
+  }
+
+  .text-sm-right {
+    text-align: right !important;
+  }
+
+  .text-sm-center {
+    text-align: center !important;
+  }
+
+  .text-sm-justify {
+    text-align: justify !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-md-left {
+    text-align: left !important;
+  }
+
+  .text-md-right {
+    text-align: right !important;
+  }
+
+  .text-md-center {
+    text-align: center !important;
+  }
+
+  .text-md-justify {
+    text-align: justify !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .text-lg-left {
+    text-align: left !important;
+  }
+
+  .text-lg-right {
+    text-align: right !important;
+  }
+
+  .text-lg-center {
+    text-align: center !important;
+  }
+
+  .text-lg-justify {
+    text-align: justify !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .text-xl-left {
+    text-align: left !important;
+  }
+
+  .text-xl-right {
+    text-align: right !important;
+  }
+
+  .text-xl-center {
+    text-align: center !important;
+  }
+
+  .text-xl-justify {
+    text-align: justify !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .text-xxl-left {
+    text-align: left !important;
+  }
+
+  .text-xxl-right {
+    text-align: right !important;
+  }
+
+  .text-xxl-center {
+    text-align: center !important;
+  }
+
+  .text-xxl-justify {
+    text-align: justify !important;
+  }
+
+  /* Font Size */
+  .fs-xxl-1 {
+    font-size: 2.5rem !important;
+  }
+
+  .fs-xxl-2 {
+    font-size: 2rem !important;
+  }
+
+  .fs-xxl-3 {
+    font-size: 1.75rem !important;
+  }
+
+  .fs-xxl-4 {
+    font-size: 1.5rem !important;
+  }
+
+  .fs-xxl-5 {
+    font-size: 1.25rem !important;
+  }
+
+  .fs-xxl-6 {
+    font-size: 1rem !important;
+  }
+}
+
+@media (min-width: 1600px){
+   /* Font Size */
+  .fs-uxl-1 {
+    font-size: 2.5rem !important;
+  }
+
+  .fs-uxl-2 {
+    font-size: 2rem !important;
+  }
+
+  .fs-uxl-3 {
+    font-size: 1.75rem !important;
+  }
+
+  .fs-uxl-4 {
+    font-size: 1.5rem !important;
+  }
+
+  .fs-uxl-5 {
+    font-size: 1.25rem !important;
+  }
+
+  .fs-uxl-6 {
+    font-size: 1rem !important;
+  }
+}

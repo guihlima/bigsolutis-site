@@ -1,0 +1,167 @@
+@import url(menu.css);
+
+/* Header */
+/* Alterar tema */
+
+.header{
+    /* background-color: var(); */
+    opacity: 1;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 65px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: fixed;
+    z-index: 1;
+    transition: background .3s ease;
+    /* background-color: ; */
+}
+
+/* Logo */
+
+.header .logo{
+    color: var(--color-text-dark);
+    font-weight: 600 !important;
+}
+.header .logo {
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 25%;
+}
+
+/* Menu desktop */
+.nav-desktop{
+    width: 100%;
+    display: none;
+    justify-content: center;
+}
+.nav-desktop .nav-list{
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-desktop .nav-list .nav-item .nav-link {
+    color: var(--color-text-dark);
+}
+
+.nav-desktop .nav-list .nav-link{
+    position: relative;
+}
+
+.nav-desktop .nav-list .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 3px;
+    
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in;
+}
+
+
+.nav-desktop .nav-list .nav-link::after{
+    background-color: #1930FF;
+}
+
+.nav-desktop .nav-list .nav-link:hover::after {
+    transform: scaleX(1);
+}
+
+/* Lista de redes sociais */
+.header .list-socials {
+    width: 25%;
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.header .list-socials li a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagens das redes sociais */
+.header .list-socials img {
+    /* width: 100%;
+    height: 100%; */
+}
+
+.header .list-socials li a img {
+    /* width: 4rem;
+    height: 4rem; */
+    /* width: 4rem; */
+    width: 3.5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    height: 100%;
+    /* font-size: 2rem;
+    color: var(--color-text-light); */
+}
+
+.header .list-socials li a #iconFacebook{
+    font-size: 2rem;
+    color: #1F7BF2;
+    height: 100%;
+}
+
+.header.rolado{
+    background-color: #FFF !important;
+    transition: background .3s ease;
+}
+
+.header.rolado .logo{
+    color: #000 !important;
+    ;
+}
+.header.rolado #menuIcon>span{
+    background-color: #000 !important;
+}
+.header.rolado .nav-desktop .nav-list .nav-item .nav-link{
+    color: #000 !important;
+}
+@media (min-width: 1200px) {
+    .header {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+
+    .nav-desktop{
+        display: flex;
+    }
+
+    .header .list-socials {
+        display: flex;
+        justify-content: end;
+    }
+}
+
+@media (min-width: 1400px) {
+    .header {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    .header .list-socials {
+        display: flex;
+    }
+}
+
+@media (min-width: 1600px){
+    .header {
+        padding-left: 13rem;
+        padding-right: 13rem;
+    }
+}

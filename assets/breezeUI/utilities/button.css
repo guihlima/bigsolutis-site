@@ -1,0 +1,234 @@
+/* utilities/button.css */
+
+.btn {
+    display: inline-block; /* Mudado para inline-block para melhor flexibilidade */
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border: none; /* Remover a borda padrão do botão */
+    border-radius: .4rem;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+    -webkit-appearance: none; /* Remover aparência padrão em navegadores WebKit */
+    -moz-appearance: none;    /* Remover aparência padrão em navegadores Gecko */
+    appearance: none;
+    color: var(--cinza-100) !important;
+}
+
+.btn:focus {
+    outline: 0; /* Remover a borda de foco padrão */
+    /* Adicione um estilo de foco personalizado se desejar */
+    /* box-shadow: 0 0 0 0.2rem rgba(var(--cor-primaria-rgb), 0.5); */
+}
+
+.btn:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+/* Variações de Cor Primária */
+.btn-primary {
+    background-color: var(--cor-primaria);
+    color: #000;
+}
+
+.btn-primary:hover {
+    background-color: var(--cor-primaria-hover);
+    color: #000000e8;
+}
+
+.btn-outline-primary {
+    background-color: transparent;
+    color: var(--cor-primaria);
+    border: 1px solid var(--cor-primaria);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--cor-primaria);
+    color: #fff;
+    border-color: var(--cor-primaria);
+}
+
+/* Variações de Cor Secundária */
+.btn-secondary {
+    background-color: var(--cor-secundaria);
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: var(--cor-secundaria-hover);
+    color: #ffffffcc;
+}
+
+.btn-outline-secondary {
+    background-color: transparent;
+    color: var(--cor-secundaria);
+    border: 1px solid var(--cor-secundaria);
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--cor-secundaria);
+    color: #fff;
+    border-color: var(--cor-secundaria);
+}
+
+/* Variações de Cor Sucesso */
+.btn-success {
+    background-color: var(--cor-sucesso);
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: var(--cor-sucesso-hover);
+    color: #ffffffcc;
+}
+
+.btn-outline-success {
+    background-color: transparent;
+    color: var(--cor-sucesso);
+    border: 1px solid var(--cor-sucesso);
+}
+
+.btn-outline-success:hover {
+    background-color: var(--cor-sucesso);
+    color: #fff;
+    border-color: var(--cor-sucesso);
+}
+
+/* Variações de Cor Aviso */
+.btn-warning {
+    background-color: var(--cor-aviso);
+    color: #000;
+}
+
+.btn-warning:hover {
+    background-color: var(--cor-aviso-hover);
+    color: #000000e8;
+}
+
+.btn-outline-warning {
+    background-color: transparent;
+    color: var(--cor-aviso);
+    border: 1px solid var(--cor-aviso);
+}
+
+.btn-outline-warning:hover {
+    background-color: var(--cor-aviso);
+    color: #000;
+    border-color: var(--cor-aviso);
+}
+
+/* Variações de Cor Perigo */
+.btn-danger {
+    background-color: var(--cor-erro);
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: var(--cor-erro-hover);
+    color: #ffffffcc;
+}
+
+.btn-outline-danger {
+    background-color: transparent;
+    color: var(--cor-erro);
+    border: 1px solid var(--cor-erro);
+}
+
+.btn-outline-danger:hover {
+    background-color: var(--cor-erro);
+    color: #fff;
+    border-color: var(--cor-erro);
+}
+
+/* Variações de Cor Informação */
+.btn-info {
+    background-color: var(--cor-info);
+    color: #fff;
+}
+
+.btn-info:hover {
+    background-color: var(--cor-info-hover);
+    color: #ffffffcc;
+}
+
+.btn-outline-info {
+    background-color: transparent;
+    color: var(--cor-info);
+    border: 1px solid var(--cor-info);
+}
+
+.btn-outline-info:hover {
+    background-color: var(--cor-info);
+    color: #fff;
+    border-color: var(--cor-info);
+}
+
+/* Variações de Cor Clara */
+.btn-light {
+    background-color: var(--cinza-100);
+    color: var(--cor-texto-principal);
+    border: 1px solid var(--cinza-200);
+}
+
+.btn-light:hover {
+    background-color: var(--cinza-200);
+    color: var(--cor-texto-principal);
+    border-color: var(--cinza-500);
+}
+
+.btn-outline-light {
+    background-color: transparent;
+    color: var(--cinza-100);
+    border: 1px solid var(--cinza-100);
+}
+
+.btn-outline-light:hover {
+    background-color: var(--cinza-100);
+    color: var(--cor-texto-principal);
+    border-color: var(--cinza-100);
+}
+
+/* Variações de Cor Escura */
+.btn-dark {
+    background-color: var(--cinza-900);
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background-color: #343a40; /* Um tom mais claro de cinza-900 */
+    color: #ffffffcc;
+}
+
+.btn-outline-dark {
+    background-color: transparent;
+    color: var(--cinza-900);
+    border: 1px solid var(--cinza-900);
+}
+
+.btn-outline-dark:hover {
+    background-color: var(--cinza-900);
+    color: #fff;
+    border-color: var(--cinza-900);
+}
+
+/* Variações de Tamanho */
+.btn-sm {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.875rem;
+    border-radius: 0.3rem;
+}
+
+.btn-lg {
+    padding: 0.9rem 1.5rem;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+}
+
+/* Botões de Largura Total */
+.btn-block {
+    display: block;
+    width: 100%;
+}

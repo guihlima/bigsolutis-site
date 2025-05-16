@@ -1,0 +1,22 @@
+/* main.css */
+@import '../theme/base/normalize.css';
+@import '../theme/base/variables.css';
+/* As variáveis são carregadas aqui */
+@import '../theme/base/typography.css';
+/* O typography.css pode usar as variáveis */
+@import '../layout/grid.css'; /* Sobe um nível para encontrar a pasta layout */
+@import '../utilities/border.css'; /* Sobe um nível para encontrar a pasta utilities */
+@import '../utilities/button.css';
+@import '../utilities/card.css';
+@import '../utilities/colors.css';
+@import '../utilities/cursor.css';
+@import '../utilities/display.css';
+@import '../utilities/input.css';
+@import '../utilities/list.css';
+@import '../utilities/overflow.css';
+@import '../utilities/position.css';
+@import '../utilities/select.css';
+@import '../utilities/spacing.css';
+@import '../utilities/typography.css';
+@import '../utilities/visibility.css';
+@import '../utilities/width-height.css';

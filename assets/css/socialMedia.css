@@ -1,0 +1,9 @@
+/* li:hover .link-social#whatsapp i,
+li:hover .link-social#whatsapp label{
+    color: #86e20d;
+    transition: color .3s ease;
+} */
+
+li .link-social{
+    width: fit-content;
+}

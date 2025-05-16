@@ -1,0 +1,22 @@
+.card{
+    background-color: red;
+    padding: 1rem;
+    border-radius: .4rem;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #000;
+}
+
+.card-description{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}

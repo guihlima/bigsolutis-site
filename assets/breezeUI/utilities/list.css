@@ -1,0 +1,11 @@
+.list-style-circle {
+    list-style: circle;
+}
+
+.list-style-inside {
+    list-style: inside;
+}
+
+.list-color-primary {
+    color: var(--cor-primaria);
+}

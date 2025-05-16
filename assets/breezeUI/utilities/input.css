@@ -1,0 +1,19 @@
+.input{
+    display: block;
+    width: 100%;
+    padding: 0.7rem .5rem;
+    border-radius: .4rem;
+    border: 1px solid var(--cor-primaria);
+    background-color: var(--color-background);
+    /* color: var(--color-text);
+    font-size: var(--font-size);
+    line-height: var(--line-height); */
+    font-size: 1.1rem;
+    outline: none;
+}
+
+.input:focus{
+    /* border-width: 2px; */
+    /* border: 2px solid var(--cor-primaria); */
+    box-shadow: 0 0 0 2px var(--cor-primaria);
+}
