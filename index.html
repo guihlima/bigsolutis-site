@@ -283,11 +283,11 @@
                     <div class="title pb-4">
                         <h4 class="fs-4 section-title text-black">Contato</h4>
                     </div>
-                    <form action="processarFormulario.php" class="d-flex flex-column align-items-start gap-2">
+                    <form action="processarFormulario.php"  method="POST" class="d-flex flex-column align-items-start gap-2">
                         <input type="text" class="input" id="inputNome" name="inputNome" placeholder="Informe seu nome">
                         <input type="email" class="input" id="inputEmail" name="inputEmail" placeholder="Informe seu e-mail">
                         <textarea class="input" name="txtMensagem" id="txtMensagem" placeholder="Deixe sua mensagem"></textarea>
-                        <button class="btn btn-primary">Enviar</button>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
                     </form>
                 </div>
                 <div class="col-12 col-md-5 col-xl-3">
