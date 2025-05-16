@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/main.css?v=1.0">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.css">
 </head>
 
 <body>
@@ -123,11 +127,69 @@
                 </div>
             </div>
         </section>
+        <section class="section bg-body" id="sectionProjects">
+            <div class="container">
+                <div class="d-flex flex-column justify-content-center text-right">
+                    <div class="title pt-5 pb-5 pt-lg-0 d-flex justify-content-center pt-lg-5 pb-lg-5">
+                        <h3 class="section-title fs-3 fs-uxl-2 text-center text-white">Projetos</h3>
+                        <!-- <label for=""></label> -->
+                    </div>
+                    <div class="swiper w-xs-100 w-sm-90 w-lg-70 w-xl-60">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card-projeto">
+                                    <a href="https://www.exemplo1.com.br" target="_blank">
+                                        <img src="assets/image/projects/amazzonia.png" alt="Amazzonia" class="rounded-3 w-xs-100">
+                                        <div class="card-overlay">
+                                            <p class="card-link text-white text-decoration-underline cursor-pointer">Visitar Site</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-projeto">
+                                    <a href="https://www.exemplo2.com.br" target="_blank" class="">
+                                        <img src="assets/image/projects/igreja_batista_eden.png" alt="Igreja Batista Éden" class="rounded-3 w-xs-100">
+                                        <div class="card-overlay">
+                                            <p class="card-link text-white text-decoration-underline cursor-pointer">Visitar Site</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-projeto">
+                                    <a href="https://www.exemplo3.com.br" target="_blank">
+                                        <img src="assets/image/projects/sol_enxovais.png" alt="Sol Enxovais" class="rounded-3 w-xs-100">
+                                        <div class="card-overlay">
+                                            <p class="card-link text-white text-decoration-underline cursor-pointer">Visitar Site</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-projeto">
+                                    <a href="https://www.exemplo3.com.br" target="_blank">
+                                        <img src="assets/image/projects/vinnicius.png" alt="Vinnicius" class="rounded-3 w-xs-100">
+                                        <div class="card-overlay">
+                                            <p class="card-link text-white text-decoration-underline cursor-pointer">Visitar Site</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="section bg-body" id="sectionServices">
             <div class="container pb-3">
-                <div class="d-flex flex-column justify-content-end text-right">
-                    <div class="title pt-5 pb-5 pt-lg-0 d-flex justify-content-end pt-lg-5 pb-lg-5">
-                        <h3 class="section-title fs-3 fs-uxl-2 text-end text-white">Serviços</h3>
+                <div class="d-flex flex-column">
+                    <div class="title pt-5 pb-5 pt-lg-0 d-flex justify-content-center pt-lg-5 pb-lg-5">
+                        <h3 class="section-title fs-3 fs-uxl-2 text-left text-white">Serviços</h3>
                         <!-- <label for=""></label> -->
                     </div>
                     <div class="grid-services">
@@ -179,7 +241,7 @@
             <!-- <div class="container d-flex flex-column justify-content-start text-left"> -->
             <div class="container row gap-4 pt-5 pb-5  pt-lg-5 pb-lg-5 justify-content-md-between">
                 <div class="col-12 col-md-5">
-                    <div class="title pt-lg-0 d-flex justify-content-start pb-4">
+                    <div class="title pt-lg-0 d-flex justify-content-center pb-4">
                         <h3 class="section-title fs-3 fs-uxl-2 text-end text-black">Contato</h3>
                         <!-- <label for=""></label> -->
                     </div>
@@ -257,6 +319,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
 
     <script src="assets/js/changeHeader.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
 </body>
 
 </html>
